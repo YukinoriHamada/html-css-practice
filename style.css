@@ -1,5 +1,12 @@
 body {
   font-family: Georgia, '游明朝', YuMincho, 'Hiragino Mincho ProN', Meiryo, serif;
+  
+}
+.font-color {
+  color:#777;
+}
+.font-color2 {
+  color:#333;
 }
 header {
   padding-top:60px;
@@ -11,24 +18,32 @@ header {
 }
 header .container {
   display:flex;
+  align-items: flex-end;
 }
-.header-left {
-  display:inline-block;
-}
+
+
 header h1 {
   font-size:36px;
   margin:0;
 }
 header p {
-  display:inline-block;
+  margin:0;
 }
+
 .header ul {
+  text-align:center;
+}
+.header nav {
   text-align:center;
 }
 .header-nav li{
   display:inline-block;
   list-style: none;
   padding-right:16px;
+}
+.header-nav a {
+  color:#333;
+  text-decoration:none;
 }
 
 .message-wrapper .container {
@@ -43,16 +58,17 @@ header p {
 
 .message-wrapper h2 {
   font-size:27px;
-  color:#777;
+  font-weight:normal;
 }
 
-.articles-wrapper p {
-  color:#777;
-}
+
 
 .article {
   margin-bottom:75px;
   display:flex;
+}
+.article a{
+  text-decoration:none;
 }
 .dates {
   width:40%;
@@ -60,10 +76,17 @@ header p {
 .content {
   width:60%;
 }
-
+.index {
+  display:flex;
+}
+.index-box {
+  padding:8px 18px;
+  border:solid 0.5px #ccc;
+  margin-right:6px;
+}
 .info .container {
   display:flex;
-  padding-top:75px;
+  padding:75px 0;
   border-top:solid 0.5px #e6e6e6;
 }
 .introduction {
@@ -71,18 +94,19 @@ header p {
   width:228px;
   padding-right:60px;
 }
-.introduction h4 {
-  color:#333;
-}
+
 .introduction img {
   width:100px;
   border-radius:50%;
 }
 .fab {
   color:#777;
+  width:20px;
+}
+.fab:hover {
+  cursor:pointer;
 }
 .introduction p{
-  color:#777;
   font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
 }
 .intro-upper {
@@ -99,28 +123,46 @@ header p {
 }
 .info-second h4 {
   font-weight:normal;
-  color:#333;
 }
 .info-second p{
-  color:#777;
   font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+  text-decoration:none;
 }
 .recent-posts {
   padding-right:50px;
 }
-.recent-posts h4{
-  color:#333;
+.recent-posts a {
+  text-decoration:none;
 }
-.recent-posts p {
-  color:#777;
-}
+
 .theme {
+  text-decoration:none;
   text-decoration:underline;
 }
 
-.category h4{
-  color:#333;
+
+.category a{ 
+  text-decoration:none;
 }
-.category p{
-  color:#777;
+.category input {
+  border:solid 1px #e6e6e6;
+  width:100%;
+  font-size:16px;
+  padding:6px;
+}
+footer .container {
+  padding-top:60px;
+  padding-bottom:60px;
+  border-top:solid 0.5px #e6e6e6;
+}
+footer .fab {
+  padding-right:20px;
+  float:left;
+}
+
+.footer-right {
+  text-align:center;
+}
+footer a{
+  text-decoration:none;
 }
