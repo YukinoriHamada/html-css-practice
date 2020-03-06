@@ -1,0 +1,126 @@
+body {
+  font-family: Georgia, '游明朝', YuMincho, 'Hiragino Mincho ProN', Meiryo, serif;
+}
+header {
+  padding-top:60px;
+  margin-bottom:70px;
+}
+.container {
+  width:921px;
+  margin:0 auto;
+}
+header .container {
+  display:flex;
+}
+.header-left {
+  display:inline-block;
+}
+header h1 {
+  font-size:36px;
+  margin:0;
+}
+header p {
+  display:inline-block;
+}
+.header ul {
+  text-align:center;
+}
+.header-nav li{
+  display:inline-block;
+  list-style: none;
+  padding-right:16px;
+}
+
+.message-wrapper .container {
+  padding-bottom:25px;
+  margin-bottom:90px;
+}
+
+.message-wrapper img {
+  width:100%;
+  margin-bottom:90px;
+}
+
+.message-wrapper h2 {
+  font-size:27px;
+  color:#777;
+}
+
+.articles-wrapper p {
+  color:#777;
+}
+
+.article {
+  margin-bottom:75px;
+  display:flex;
+}
+.dates {
+  width:40%;
+}
+.content {
+  width:60%;
+}
+
+.info .container {
+  display:flex;
+  padding-top:75px;
+  border-top:solid 0.5px #e6e6e6;
+}
+.introduction {
+  height:224px;
+  width:228px;
+  padding-right:60px;
+}
+.introduction h4 {
+  color:#333;
+}
+.introduction img {
+  width:100px;
+  border-radius:50%;
+}
+.fab {
+  color:#777;
+}
+.introduction p{
+  color:#777;
+  font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+}
+.intro-upper {
+  display:flex;
+}
+.name {
+  padding-left:40px;
+}
+
+.info-second {
+  width:187px;
+  padding-right:50px;  
+  font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+}
+.info-second h4 {
+  font-weight:normal;
+  color:#333;
+}
+.info-second p{
+  color:#777;
+  font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+}
+.recent-posts {
+  padding-right:50px;
+}
+.recent-posts h4{
+  color:#333;
+}
+.recent-posts p {
+  color:#777;
+}
+.theme {
+  text-decoration:underline;
+}
+
+.category h4{
+  color:#333;
+}
+.category p{
+  color:#777;
+}
